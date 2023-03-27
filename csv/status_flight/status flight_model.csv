@@ -1,0 +1,48 @@
+"count","model","status"
+1,Боинг 737-300,Delayed
+1,Боинг 767-300,Delayed
+1,Боинг 777-300,Cancelled
+1,Боинг 777-300,Departed
+2,Аэробус A319-100,Delayed
+2,Аэробус A321-200,Departed
+2,Боинг 737-300,Departed
+3,Аэробус A319-100,Departed
+3,Аэробус A321-200,Cancelled
+3,Боинг 767-300,Departed
+4,Аэробус A321-200,Delayed
+6,Боинг 767-300,Cancelled
+10,Боинг 777-300,On Time
+10,Сухой Суперджет-100,Delayed
+11,Бомбардье CRJ-200,Delayed
+12,Бомбардье CRJ-200,Departed
+12,Сессна 208 Караван,Delayed
+12,Сухой Суперджет-100,Departed
+15,Боинг 737-300,Cancelled
+20,Аэробус A319-100,On Time
+21,Боинг 767-300,On Time
+22,Боинг 737-300,On Time
+23,Сессна 208 Караван,Departed
+24,Аэробус A319-100,Cancelled
+28,Аэробус A321-200,On Time
+76,Сухой Суперджет-100,Cancelled
+122,Сессна 208 Караван,Cancelled
+130,Сухой Суперджет-100,On Time
+138,Сессна 208 Караван,On Time
+149,Бомбардье CRJ-200,On Time
+190,Бомбардье CRJ-200,Cancelled
+291,Боинг 777-300,Scheduled
+566,Аэробус A319-100,Scheduled
+578,Боинг 767-300,Scheduled
+588,Боинг 737-300,Scheduled
+933,Аэробус A321-200,Scheduled
+3657,Боинг 777-300,Arrived
+3991,Сухой Суперджет-100,Scheduled
+4125,Бомбардье CRJ-200,Scheduled
+4311,Сессна 208 Караван,Scheduled
+7311,Боинг 767-300,Arrived
+7417,Аэробус A319-100,Arrived
+7635,Боинг 737-300,Arrived
+11702,Аэробус A321-200,Arrived
+50994,Сухой Суперджет-100,Arrived
+54124,Бомбардье CRJ-200,Arrived
+55590,Сессна 208 Караван,Arrived
