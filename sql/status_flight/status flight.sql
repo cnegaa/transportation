@@ -1,10 +1,11 @@
-/*flight status*/
+/*status flight*/
+
 select
 	  month
 	, status
 	, conditions
-	, sum(count_ticket)
-	, sum(sum_amount)
+	, sum(count_ticket) as ticket
+	, sum(sum_amount) as amount
 	, array_agg(model)
 from
 (select

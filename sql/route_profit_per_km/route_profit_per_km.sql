@@ -1,20 +1,22 @@
 /*route profit per km*/
 
---create extension cube;
---create extension earthdistance
-
+--create extension cube; - запустить перед запросом (расширение)
+--create extension earthdistance - функция
 select 		
 		departure_city || ' -> ' || arrival_city as route_city
 		, departure || ' -> ' || arrival as route_code
-		, (flight_amount / total_distance*1.00) as revenue_per_km 
+		,(flight_amount / total_distance*1.00) as revenue_per_km
+		, flight_amount
+		, total_distance
+		, flights_count
 from 	
 		(select   
 				schedule.departure_city
 				, schedule.arrival_city
 				, schedule.departure
 		        , schedule.arrival
-		        , (arrivals.coordinates <@> departures.coordinates) * flights_count as total_distance
-		        , flight_amount
+		        , ((arrivals.coordinates <@> departures.coordinates)*1.60934) * flights_count as total_distance -- 1.60934 для перевода миль в км
+		        , flights_count
 		 from
 				(select
 					 fv.departure_city as  departure_city
@@ -38,4 +40,4 @@ from
 			on arrivals.airport_code = schedule.departure
 		    inner join bookings.airports departures
 			on departures.airport_code = schedule.arrival) as flights_data
-			limit 10
+			order by revenue_per_km desc
