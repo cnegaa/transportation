@@ -3,7 +3,8 @@
 Для проекта взята БД авиаперевозок по России за год с
 [postgrespro.ru](https://postgrespro.ru/education/demodb)
 
-# Ссылка на [Dashboard_Power_BI](https://drive.google.com/drive/folders/1be3vZeNirj1df60Pg2YgYYXLLItOIsfn?usp=drive_link)
+## Ссылка на Dashboard Dashboard [PowerBI]
+(https://drive.google.com/drive/folders/1be3vZeNirj1df60Pg2YgYYXLLItOIsfn?usp=drive_link)
 
 <image src="./structure/structure_bd.jpg" alt="Схема БД">
 
